@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-image:url(../img/textura2.jpg)
+
+}
+
+#logo{
+    width: 250px;
+    margin: 15px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 6px;
+    
+}
+#Nombre{
+position:absolute ;
+top: 90px;
+left: 280px;
+font-size: 40px;
+color:black;
+}
+.titulo{
+    text-align: center;
+    margin-top:-65px;
+    background-color: darkcyan;
+    width: 40%;
+    margin-left: 350px;
+    border-radius: 15px;
+
+}
+.etiquetas{
+    position: absolute;
+    top: 45px;
+    left: 50%;
+    font-size: 25px;
+
+}
+.niveles{
+    display:inline
+    
+
+}
+.seccion1{
+    margin: 15% 30%;
+    width: 40%;
+    height: 70%;
+
+}
+#ela{
+    margin-top: 20px;
+    width: 250px;
+    transition: .3s;
+}
+#ela:hover{
+
+    border-radius: 50%;
+    box-shadow: 5px 5px 6px gray;
+    
+}
+.redes{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 60px;
+
+}
+.redes ul li{
+    display: inline;
+    margin: 10px;
+    
+}
+.redes ul li a{
+    font-size: 40px;
+    
+}
+.container1{
+    width: 50%;
+    margin: 10% 30% ;
+    height: auto;
+    background-color: black;
+    color: #ffff;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 10px 10px purple;
+
+}
+.boton{
+    margin-bottom: 12px;
+}
+.form{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer{
+    background-image:url(../img/textura2.jpg)
+}
