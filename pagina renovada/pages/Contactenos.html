@@ -11,7 +11,19 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+        <script src="../js/jquery-3.7.1.min.js"></script>
 </head>
+<script>
+    $(document).ready(function(){
+        $(".form").hide()
+        $("#primero").click(function(){
+        $(".form").slideToggle("slow")
+        })
+        $("#boton2").click(function(){
+            alert("Se envió su formulario")
+        })
+    })
+</script>
 
 <body>
 
@@ -58,16 +70,18 @@
                 <!--inicio modo de contacto-->
 
                 <div class="boton">
-                    <input type="submit" value="Enviar">
+                    <input type="submit" value="Enviar" class="boton2" id="boton2">
                 </div>
 
             </form>
             <!--mapa-->
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.568524769983!2d-74.05549082603449!3d4.670742441918629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a8b52156753%3A0x17ee1fb6a93ba65e!2sCl.%2086a%20%2313-42%2C%20Localidad%20de%20Chapinero%2C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1714183706397!5m2!1ses!2sco"
-                width="250" height="250    " style="border-radius:50%;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
+            <div class="mapa">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.568524769983!2d-74.05549082603449!3d4.670742441918629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a8b52156753%3A0x17ee1fb6a93ba65e!2sCl.%2086a%20%2313-42%2C%20Localidad%20de%20Chapinero%2C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1714183706397!5m2!1ses!2sco"
+                    allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
         
 
         </div>
